@@ -33,7 +33,7 @@ export default function PDFChatPage() {
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/upload-pdf",
+      "https://genai-placemate.onrender.com/upload-pdf",
 
       {
 
@@ -70,7 +70,7 @@ export default function PDFChatPage() {
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/ask-pdf",
+      "https://genai-placemate.onrender.com/ask-pdf",
 
       {
 
