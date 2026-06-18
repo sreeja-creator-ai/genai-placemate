@@ -45,7 +45,7 @@ export default function MockInterviewPage() {
 
       const response = await fetch(
 
-        "http://127.0.0.1:8000/generate-question",
+        "https://genai-placemate.onrender.com/generate-question",
 
         {
 
@@ -114,7 +114,7 @@ export default function MockInterviewPage() {
 
       const response = await fetch(
 
-        "http://127.0.0.1:8000/mock-interview",
+        "https://genai-placemate.onrender.com/mock-interview",
 
         {
 
