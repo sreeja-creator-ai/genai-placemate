@@ -22,7 +22,7 @@ export default function ResumeBuilderPage() {
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/generate-resume",
+      "https://genai-placemate.onrender.com/generate-resume",
 
       {
 
@@ -63,7 +63,7 @@ export default function ResumeBuilderPage() {
 
     const response = await fetch(
 
-      "http://127.0.0.1:8000/download-resume",
+      "https://genai-placemate.onrender.com/download-resume",
 
       {
 
