@@ -27,7 +27,7 @@ export default function Roadmap() {
 
       const response = await fetch(
 
-        "http://127.0.0.1:8000/roadmap",
+        "https://genai-placemate.onrender.com/roadmap",
 
         {
 
