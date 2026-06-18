@@ -21,7 +21,7 @@ export default function ResumePage() {
     formData.append("file", file);
 
     const response = await fetch(
-      "http://127.0.0.1:8000/resume",
+      "https://genai-placemate.onrender.com/resume",
       {
         method: "POST",
 
